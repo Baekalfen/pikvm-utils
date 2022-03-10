@@ -14,7 +14,7 @@ setup(
     url="https://github.com/Baekalfen/pikvm-utils",
     py_modules=["pikvm_utils"],
     entry_points={
-        "console_scripts": ["pikvm_utils=pikvm_utils:pikvm_utils", ],
+        "console_scripts": ["pikvm_utils=pikvm_utils:main", ],
     },
     install_requires=[
         "paramiko",
